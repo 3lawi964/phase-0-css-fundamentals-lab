@@ -3,3 +3,43 @@ body {
   height: 100%;
   margin: 0;
 }
+header{
+  max-width:120rem;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav a{
+  background-color: #eee;
+  padding: 0 10px;
+}
+#featured-property{
+  max-width: 120rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  flex-direction: column;
+}
+#featured-property{
+  text-align: center;
+}
+#featured-property p{
+  text-align: center;
+  font-size: 18px;
+  width:800px;
+}
+
+#details{
+  max-width: 120rem;
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(236, 150, 150, 0.381);
+}
+#details div{
+  text-align: center;
+}
